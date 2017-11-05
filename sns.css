@@ -1,0 +1,76 @@
+.sns-share-area {
+  text-align: center;
+}
+.sns-share-area ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+.sns-share-area ul li a {
+  display: block;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px 5px 3px;
+  width: 65px;
+}
+.sns-share-area ul li.original-tweet a {
+  background: #55acee;
+}
+.sns-share-area ul li.original-facebook a {
+  background: #305097;
+}
+.sns-share-area ul li.original-google-plus a {
+  background: #db4a39;
+}
+.sns-share-area ul li.original-hatebu a {
+  background: #00a4de;
+}
+.sns-share-area ul li span {
+  display: block;
+}
+.sns-share-area ul li span.common-txt {
+  font-size: 13px;
+}
+.sns-share-area ul li span.common-icon {
+  height: 25px;
+  width: 30px;
+  background-size: 30px;
+  margin: auto;
+  background-position: center center;
+  font-size: 22px;
+}
+.sns-share-area ul li .fa-hatebu:before {
+  content: "B!";
+  font-family: Verdana;
+  font-weight: bold;
+  font-style: normal;
+}
+.sns-share-area ul li .result-area {
+  border: 1px solid #d6ceb4;
+  padding: 0;
+  height: 33px;
+  width: 75px;
+  border-radius: 3px;
+  font-size: 15px;
+  line-height: 33px;
+  letter-spacing: 0;
+  margin: 0 0 7px 0;
+  position: relative;
+}
+.sns-share-area ul li .result-area:before {
+  content: "";
+  border: 12px solid transparent;
+  border-top: 12px solid #d6ceb4;
+  position: absolute;
+  right: 30%;
+  bottom: -25px;
+}
+.sns-share-area ul li .result-area:after {
+  content: "";
+  border: 12px solid transparent;
+  border-top: 12px solid #fff;
+  position: absolute;
+  right: 30%;
+  bottom: -24px;
+}
